@@ -23,3 +23,4 @@ let objectValue = {
             this.age = age;
         }
     }
+    console.log(objectValue);
