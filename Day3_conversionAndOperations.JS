@@ -33,3 +33,5 @@
 // value ++; // Increment value by 1
 // // value += 5; // Equivalent to value = value + 5
 // console.log(value); 
+
+/* == is used to check datatype and === is used to check datatype strickly*/
