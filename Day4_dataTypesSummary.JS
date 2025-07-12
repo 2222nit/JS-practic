@@ -8,6 +8,8 @@
 // 6. Null
 // 7. Symbol
 
+import { use } from "react";
+
 
 //reference data types or non-primitive data types
 // 1. Object: Used to store collections of data and more complex entities.
@@ -20,16 +22,16 @@
 // 8. WeakMap: Similar to Map, but keys are weakly referenced, allowing for garbage collection.
 
 
-const score = 100;
-const scoreValue = 100.3;
-const isLoggedIn = true;
-const userName = "Nitish";
-// const outsideTemp = Null;
-let userEmail;
-const bigIntValue = BigInt(1234567890123456789012345678901234567890);
+// const score = 100;
+// const scoreValue = 100.3;
+// const isLoggedIn = true;
+// const userName = "Nitish";
+// // const outsideTemp = Null;
+// let userEmail;
+// const bigIntValue = BigInt(1234567890123456789012345678901234567890);
 
-const id = Symbol("123");
-const anotherId = Symbol("123");
+// const id = Symbol("123");
+// const anotherId = Symbol("123");
 
 // console.log(id === anotherId);
 
@@ -43,8 +45,25 @@ const anotherId = Symbol("123");
 //     age: 23,
 // }
 // console.log(myObj);
-const myFunction = function() {
-    console.log("Hello from my function");
-}
+// const myFunction = function() {
+//     console.log("Hello from my function");
+// }
 
-console.log(typeof id);
+// console.log(typeof id);
+
+// let Nickname = "Nitish";
+// let Nickname2 = Nickname;
+// Nickname2 = "Niti";
+
+// console.log(Nickname);
+// console.log(Nickname2);
+
+
+// let userOne = {
+// email : "nitishkamboj8070@gmail.com",
+// name : "Nitish"
+// }
+// let userTwo = userOne
+// userTwo.email = "nitishkamboj8070@gmail.com"
+// console.log(userOne);
+// console.log(userTwo);
