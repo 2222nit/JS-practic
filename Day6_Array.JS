@@ -22,6 +22,39 @@ const myArray = [1,2,3,4,5];
 // console.log(myArray.indexOf(10)); // returns the index of the element 10
 
 
-const newArray = myArray.join(" - "); // joins the array elements into a string
-console.log(newArray); // Output: "1 - 2 - 3 - 4
+// const newArray = myArray.join(" - "); // joins the array elements into a string
+// console.log(newArray); // Output: "1 - 2 - 3 - 4
 
+const AnimeWorrier = ["Naruto", "Luffy", "ichigo", "eren", "Goku"];
+const DC = ["Batman", "Superman", "Flash", "WonderWoman"];
+
+// AnimeWorrier.push(DC);
+// console.log(AnimeWorrier);
+// console.log(AnimeWorrier[2]);
+// console.log(AnimeWorrier[5][2]);
+// console.log(AnimeWorrier[3][2]);
+
+// const AllHeros = AnimeWorrier.concat(DC); // combines two arrays
+// console.log(AllHeros); // Output: ["Naruto", "Luffy", "ichigo", "eren", "Goku", "Batman", "Superman", "Flash", "WonderWoman"]
+
+// const AllHeros = [...AnimeWorrier, ...DC]; // combines two arrays using spread operator
+// console.log(AllHeros); // Output: ["Naruto", "Luffy", "ichigo", "eren", "Goku", "Batman", "Superman", "Flash", "WonderWoman"]
+
+const anotherArray = [1, 2,[ 3, 4], 5,[ 6, 7]];
+const real_anotherArray = anotherArray.flat(); // flattens the array
+console.log(real_anotherArray); // Output: [1, 2, 3,
+
+
+
+
+
+console.log(Array.isArray(AnimeWorrier));
+// Output: true
+// console.log(Array.from("AnimeWorrier"));
+console.log(Array.from({name: "AnimeWorrier"}));
+
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+ console.log(Array.of(score1, score2, score3)); 
