@@ -1,1 +1,1 @@
-AnimeWorrier.push(DC);
+console.log(a);
