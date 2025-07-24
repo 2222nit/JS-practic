@@ -90,14 +90,79 @@ function handleObject(anyobject) {
 
 
 
-if(true) {
-    let a =10;
-const b = 20;
-var c = 30;
+// if(true) {
+//     let a =10;
+// const b = 20;
+// var c = 30;
+// }
+
+// // console.log(a);
+// // console.log(b);
+// console.log(c);
+
+
+// // Nested functions and scope
+// function outerFunction() {
+//     let outerVar = "I'm outside!";
+//     function innerFunction() {
+//         let innerVar = "I'm inside!";
+//         console.log(outerVar); // Accessible
+//         console.log(innerVar); // Accessible
+//     }
+//     innerFunction();
+//     // console.log(innerVar); // Not accessible here
+// }
+// outerFunction();
+
+// function addone(num) {
+//     return num + 1;
+// }
+// console.log(addone(1));
+
+// const addtwo = function(num) {
+//     return num + 2;
+// }
+// console.log(addtwo(2));
+
+
+
+//Arrow functions
+const user = {
+    username: "nitish",
+    price:999,
+
+    welcomeMessage: function() {
+        console.log(`Welcome ${this.username}, your price is ${this.price};`);
+    }
 }
+// user.welcomeMessage();
+// user.username = "Kamboj";
+// user.price = 1999;
 
-// console.log(a);
-// console.log(b);
-console.log(c);
+// console.log(this);
+
+function Win() {
+    let a = 10;
+    console.log(`Value of a is ${a}`);
+}
+// Win();
+
+const RamRam = () => {
+    let a = 20;
+    console.log(`Value of a is ${a}`);
+    console.log(this);
+}
+// console.log(RamRam());
+// RamRam();
 
 
+const addTwo = (num1, num2) => {
+    return num1 + num2;
+}
+// console.log(addTwo(5, 10)); // Output: 15
+
+
+// implecit return
+const addThree = (num1, num2, num3) => num1 + num2 + num3;
+// const addThree = (num1, num2, num3) => (num1 + num2 + num3);
+// console.log(addThree(5, 10, 15))
