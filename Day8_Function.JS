@@ -166,3 +166,14 @@ const addTwo = (num1, num2) => {
 const addThree = (num1, num2, num3) => num1 + num2 + num3;
 // const addThree = (num1, num2, num3) => (num1 + num2 + num3);
 // console.log(addThree(5, 10, 15))
+
+
+
+//immediately invoked function expression (IIFE)
+(function bakchodi() {
+    console.log("This is bakchodi function");
+})();
+
+// (  ()  => {
+//     console.log(`This is bakchodi arrow function ${name}`);
+// })(`IIFE`);
